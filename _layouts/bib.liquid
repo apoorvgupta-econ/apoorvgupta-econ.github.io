@@ -182,7 +182,11 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {% if entry.rr %}
+        <em>r/r</em>, <strong>{{ entry.rr | strip }}</strong>
+      {% elsif entry.note %}
+        {{ entry.note | strip | regex_replace: '(?i)revise\s+(and|&amp;|&)\s+resubmit', 'r/r' }}
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->
