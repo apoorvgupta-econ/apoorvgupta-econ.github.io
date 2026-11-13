@@ -23,7 +23,11 @@ latest_posts:
   limit: 3
 ---
 
-I am an applied economist who studies firms in developing countries. My work analyzes what drives the productivity and growth of firms in economies characterized by substantial market failures; in particular, how the performance of firms and allocation of resources across firms interacts with various frictions prevalent in developing economies.
+I am an applied economist who studies firms in developing countries, focusing on two primary areas:
+
+1. **(Financial) contracting** under asymmetric information: using better/new data and technologies to improve borrower screening and credit allocation, and designing products that better align lender-borrower incentives.
+
+2. Determinants of **productivity and growth** of firms in economies characterized by substantial market failures; in particular, how technology adoption decisions of firms and the allocation of resources across firms interact with various frictions prevalent in developing economies.
 
 **Research Fields:** Development Economics, Finance, Productivity and Growth.
 
