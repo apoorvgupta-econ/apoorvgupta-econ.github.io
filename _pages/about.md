@@ -23,8 +23,6 @@ latest_posts:
   limit: 3
 ---
 
-I am an Assistant Professor of Economics at [Dartmouth College](https://economics.dartmouth.edu/).
-
 I am an applied economist who studies firms in developing countries. My work analyzes what drives the productivity and growth of firms in economies characterized by substantial market failures; in particular, how the performance of firms and allocation of resources across firms interacts with various frictions prevalent in developing economies.
 
 **Research Fields:** Development Economics, Finance, Productivity and Growth.

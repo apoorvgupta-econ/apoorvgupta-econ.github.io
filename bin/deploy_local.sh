@@ -10,15 +10,18 @@ touch _site/.nojekyll
 
 TMP_GH=$(mktemp -d)
 trap 'rm -rf "$TMP_GH"' EXIT
-cp -R _site/. "$TMP_GH/"
+
+git clone --branch gh-pages --depth 1 https://github.com/apoorvgupta-econ/apoorvgupta-econ.github.io.git "$TMP_GH"
+rsync -a --delete --exclude='.git' _site/ "$TMP_GH/"
 
 cd "$TMP_GH"
-git init -b gh-pages
 git config user.name "Apoorv Gupta"
 git config user.email "35312379+apoorvgupta-econ@users.noreply.github.com"
 git add -A
-git commit -m "Deploy built al-folio site to gh-pages"
-git remote add origin https://github.com/apoorvgupta-econ/apoorvgupta-econ.github.io.git
-git push --force origin gh-pages
-
-echo "Deployed successfully to gh-pages!"
+if ! git diff --cached --quiet; then
+  git commit -m "Deploy built al-folio site to gh-pages"
+  git push origin gh-pages
+  echo "Deployed successfully to gh-pages!"
+else
+  echo "No changes to deploy."
+fi
