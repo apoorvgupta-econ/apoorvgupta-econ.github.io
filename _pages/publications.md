@@ -12,11 +12,11 @@ nav_order: 2
 
 <div class="publications">
 
-<h2 class="mt-4 mb-3" style="font-variant: small-caps; letter-spacing: 0.03em;">Working Papers</h2>
+<h2 class="mt-4 mb-3">working papers</h2>
 
 {% bibliography --group_by none --query @*[category=working_paper]* %}
 
-<h2 class="mt-5 mb-3" style="font-variant: small-caps; letter-spacing: 0.03em;">Publications</h2>
+<h2 class="mt-5 mb-3">publications</h2>
 
 {% bibliography --group_by none --query @*[category=publication]* %}
 
