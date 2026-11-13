@@ -198,6 +198,9 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
+      {% if entry.ssrn %}
+        <a href="{{ entry.ssrn }}" class="btn btn-sm z-depth-0" role="button">SSRN</a>
+      {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
@@ -236,6 +239,15 @@
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
+      {% if entry.replication %}
+        <a href="{{ entry.replication }}" class="btn btn-sm z-depth-0" role="button">Replication</a>
+      {% endif %}
+      {% if entry.data %}
+        <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
+      {% endif %}
+      {% if entry.pre_registry %}
+        <a href="{{ entry.pre_registry }}" class="btn btn-sm z-depth-0" role="button">AEA Registry</a>
+      {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
           <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
@@ -254,6 +266,11 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+    {% if entry.coverage %}
+      <div class="periodical mt-1" style="font-size: 0.85rem;">
+        <strong>Media &amp; Policy Coverage:</strong> {{ entry.coverage | markdownify | remove: '<p>' | remove: '</p>' }}
+      </div>
+    {% endif %}
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}

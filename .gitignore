@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+vendor/
+.bundle/
+.DS_Store

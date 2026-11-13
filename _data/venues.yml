@@ -1,9 +1,13 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"JPE":
+  url: https://www.journals.uchicago.edu/toc/jpe/current
+  color: "#00693e"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"REStat":
+  url: https://direct.mit.edu/rest
+  color: "#00693e"
 
-"Vision":
-  color: "#009f36"
+"R&R":
+  color: "#1f4e79"
+
+"WP":
+  color: "#5a6268"
