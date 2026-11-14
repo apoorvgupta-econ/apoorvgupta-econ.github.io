@@ -138,7 +138,7 @@
     </div>
     <div class="periodical">
       {% if entry.rr %}
-        <em>r/r</em>, {{ entry.rr | strip }}
+        <em>r/r</em>, <em>{{ entry.rr | strip }}</em>
       {% elsif entry.note %}
         {{ entry.note | strip | regex_replace: '(?i)revise\s+(and|&amp;|&)\s+resubmit', 'r/r' }}
       {% endif %}
