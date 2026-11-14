@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am organizing the 2026 edition of the [Dartmouth Macro Mini-Conference](https://sites.dartmouth.edu/macro-mini-conference/) with [Nathan Zorzi](https://www.nathanzorzi.com) on November 19–20, 2026.
+I am co-organizing the 2026 edition of the [Dartmouth Macro Mini-Conference](https://sites.dartmouth.edu/macro-mini-conference/) with [Nathan Zorzi](https://www.nathanzorzi.com) on November 19–20, 2026.
