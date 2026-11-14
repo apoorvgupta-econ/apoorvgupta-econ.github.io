@@ -26,8 +26,8 @@ ninja.data = [{
         },{id: "news-pre-doc-opportunity-jon-zinman-and-i-are-hiring-a-pre-doctoral-research-fellow-to-work-with-us-on-projects-in-finance-financial-contracting-for-smes-consumer-credit-and-behavioral-economics-preferred-start-date-july-1-2027-applications-are-reviewed-on-a-rolling-basis-apply-here",
           title: 'Pre-Doc Opportunity: Jon Zinman and I are hiring a pre-doctoral research fellow to...',
           description: "",
-          section: "News",},{id: "news-i-am-organizing-the-2026-edition-of-the-dartmouth-macro-mini-conference-with-nathan-zorzi-on-november-19-20-2026",
-          title: 'I am organizing the 2026 edition of the Dartmouth Macro Mini-Conference with Nathan...',
+          section: "News",},{id: "news-i-am-co-organizing-the-2026-edition-of-the-dartmouth-macro-mini-conference-with-nathan-zorzi-on-november-19-20-2026",
+          title: 'I am co-organizing the 2026 edition of the Dartmouth Macro Mini-Conference with Nathan...',
           description: "",
           section: "News",},{
         id: 'social-email',
