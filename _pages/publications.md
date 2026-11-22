@@ -3,14 +3,14 @@ layout: page
 permalink: /research/
 title: research
 header_title: <span class="font-weight-bold">Research</span>
-description: Working papers and publications. Click "Abs" to expand abstracts.
+description:
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
 
-<div class="publications">
+<div class="publications" style="margin-top: 3.8125rem;">
 
 <h2 class="mt-4 mb-3">working papers</h2>
 
