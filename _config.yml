@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Apoorv
 middle_name:
 last_name: Gupta
-contact_note: >
+contact_note: >-
   Department of Economics, Dartmouth College · Silsby Hall 311A, Hanover, NH 03755
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >- # the ">-" symbol folds newlines and strips the trailing newline
   Apoorv Gupta is an Assistant Professor of Economics at Dartmouth College studying firms in developing countries, finance, technology adoption, and productivity.
 footer_text:
 keywords: Apoorv Gupta, Economics, Dartmouth College, Development Economics, Finance, Technology Adoption, Firm Productivity
