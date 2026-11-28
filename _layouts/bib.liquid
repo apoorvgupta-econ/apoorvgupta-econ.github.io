@@ -135,7 +135,7 @@
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     {% if entry.conditionally_accepted %}
       <div class="periodical">
-        <em>Conditionally Accepted</em>, <em>{{ entry.conditionally_accepted | strip }}</em>
+        <em>conditionally accepted</em>, <em>{{ entry.conditionally_accepted | strip }}</em>
       </div>
     {% else %}
       <div class="periodical">
